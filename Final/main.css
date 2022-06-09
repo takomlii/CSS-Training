@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html{
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+/* Navbar */
+
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    height: 70px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 20px;
+}
+
+/* Home Seciton */
+
+#home{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name{
+    text-align: center;
+}
+
+#home .name h2{
+    margin-bottom: 00.75rem;
+}
+
+#home .name p{
+    opacity: 0,6;
+    font-style: italic;
+}
+
+#home a{
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 0.9rem;
+    border-radius: 20px;
+    letter-spacing: 0,5px;
+
+}
+
+#home a:hover{
+    color: #336ea2;
+    background: white;
+    border: 0.5px solid #336ea2;
+}
